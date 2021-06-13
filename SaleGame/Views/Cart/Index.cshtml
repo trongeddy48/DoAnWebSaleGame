@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-3 header__nav-menu-wrap">
+        <i class="fas fa-bars header__nav-menu-icon"></i>
+        <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+    </div>
+    <div class="col-md-9 header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item">
+                <a href="index.html" class="header__nav-link">Trang chủ</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Giới thiệu</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Sản phẩm</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="post.html" class="header__nav-link">Bài viết</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Tuyển cộng tác viên</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="contact.html" class="header__nav-link">Liên hệ</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end -->
+<!-- cart -->
+<div class="row">
+    <div class="col-md-6 cart-name">
+        <h6>Thông tin sản phẩm</h6>
+    </div>
+    <div class="col-md-3 cart-name">
+        <h6>Số lượng</h6>
+    </div>
+    <div class="col-md-3 cart-name">
+        <h6>Đơn giá</h6>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 cart-body">
+        <img class="cart-img" src="~/Content/images/product_1.png">
+        <p class="cart-title">Mũ bảo hiểm fullfaceYoyal QC201</p>
+    </div>
+    <div class="col-md-3 cart-body">
+        <input class="cart__body-quantity-minus" type="button" value="-">
+        <input class="cart__body-quantity-total" type="number" value="1">
+        <input class="cart__body-quantity-plus" type="button" value="+">
+    </div>
+    <div class="col-md-3 cart-body">
+        <p class="money">900.000</p>
+        <button type="button" class="btn btn-danger">Xóa</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 cart-body">
+        <img class="cart-img" src="~/Content/images/product_8.png">
+        <p class="cart-title">Mũ bảo hiểm fullfaceYoyal 2020</p>
+    </div>
+    <div class="col-md-3 cart-body">
+        <input class="cart__body-quantity-minus" type="button" value="-">
+        <input class="cart__body-quantity-total" type="number" value="2">
+        <input class="cart__body-quantity-plus" type="button" value="+">
+    </div>
+    <div class="col-md-3 cart-body">
+        <p class="money">1.490.000</p>
+        <button type="button" class="btn btn-danger">Xóa</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 cart-body">
+        <img class="cart-img" src="~/Content/images/product_3.png">
+        <p class="cart-title">Mũ bảo hiểm LS2 đẹp chính hãng</p>
+    </div>
+    <div class="col-md-3 cart-body">
+        <input class="cart__body-quantity-minus" type="button" value="-">
+        <input class="cart__body-quantity-total" type="number" value="1">
+        <input class="cart__body-quantity-plus" type="button" value="+">
+    </div>
+    <div class="col-md-3 cart-body">
+        <p class="money">1.200.000</p>
+        <button type="button" class="btn btn-danger">Xóa</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 cart-body">
+        <img class="cart-img" src="~/Content/images/product_4.png">
+        <p class="cart-title">Mũ bảo hiểm LS2 chất lượng, bền</p>
+    </div>
+    <div class="col-md-3 cart-body">
+        <input class="cart__body-quantity-minus" type="button" value="-">
+        <input class="cart__body-quantity-total" type="number" value="2">
+        <input class="cart__body-quantity-plus" type="button" value="+">
+    </div>
+    <div class="col-md-3 cart-body">
+        <p class="money">2.220.000</p>
+        <button type="button" class="btn btn-danger">Xóa</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 cart__foot">
+        <button type="button" class="btn btn-kx">Cập nhật giỏ hàng</button>
+    </div>
+    <div class="col-md-3 cart__foot">
+        <p class="text-foot">Tổng cộng:</p>
+    </div>
+    <div class="col-md-3 cart__foot">
+        <p class="moneys">18.590.500đ</p>
+        <button type="button" class="btn btn-kx">Xóa</button>
+    </div>
+</div>
+<br>
+<!-- end cart -->
