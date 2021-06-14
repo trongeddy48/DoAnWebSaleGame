@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ - Đồ Phượt 365</title>
+    <title>Game Store GOD</title>
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon">
     <script src="~/Content/js/jquery-3.3.1.js"></script>
     <script src="~/Content/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -28,7 +29,7 @@
         <!-- menu top -->
         <div class="row">
             <div class="col-md-7 dtl-header">
-                <p class="text"><marquee>Đồ Phượt 365 - Cung cấp đồ phượt chất lượng</marquee></p>
+                <p class="text"><marquee>Game Store - Nơi cung cấp các sản phẩm Game chất lượng và tốt nhất !</marquee></p>
             </div>
             <div class="col-md-5 dtl-header">
                 <p class="text-1">Hỏi Đáp</p>
@@ -48,11 +49,10 @@
             <div class="col-md-6 header__search">
                 <select name="" id="" class="header__search-select">
                     <option value="0">All</option>
-                    <option value="1">Mũ bảo hiểm</option>
-                    <option value="2">Găng tay</option>
-                    <option value="3">Áo phượt</option>
-                    <option value="4">Giày phượt</option>
-                    <option value="5">Balo phượt</option>
+                    <option value="1">Sony Playstation</option>
+                    <option value="2">Microsoft Xbox</option>
+                    <option value="3">Nintendo</option>
+                    <option value="4">Đồ công nghệ</option>
                 </select>
                 <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
                 <button class="header__search-btn">
@@ -70,18 +70,46 @@
                         Gọi điện tư vấn
                     </div>
                     <div class="header__call-number">
-                        0352.860.701
+                        034.543.9877
                     </div>
                 </div>
             </div>
             <div class="col-md-1 header__cart">
                 <a href="cart.html">
-                    <span class="header__notice">4</span>
+                    <span class="header__notice">0</span>
                     <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
                 </a>
             </div>
         </div>
         <!-- end menu bottom -->
+        <div class="row">
+            <div class="col-md-3 header__nav-menu-wrap">
+                <i class="fas fa-bars header__nav-menu-icon"></i>
+                <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+            </div>
+            <div class="col-md-9 header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        @Html.ActionLink("Trang chủ", "Index", "Home")
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Giới thiệu</a>
+                    </li>
+                    <li class="header__nav-item">
+                        @Html.ActionLink("Sản phẩm", "Index", "Product")
+                    </li>
+                    <li class="header__nav-item">
+                        @Html.ActionLink("Bài viết", "Index", "Post")
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Tuyển cộng tác viên</a>
+                    </li>
+                    <li class="header__nav-item">
+                        @Html.ActionLink("Liên hệ", "Index", "Contact")
+                    </li>
+                </ul>
+            </div>
+        </div>
         @RenderBody()
         <!-- footer -->
         <div class="row backroud">

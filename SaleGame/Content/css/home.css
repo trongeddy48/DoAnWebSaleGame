@@ -262,23 +262,23 @@ button.btn.btn-danger {
 /*hover*/
 img.product__panel-img:hover {
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05)
 }
 .product__panel-item-wrap:hover {
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05)
 }
 img.bestselling__product-img:hover {
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05)
 }
 img.product__sidebar-item-img:hover {
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05)
 }
 img.bestselling__product-im:hover {
     transform: translateY(-1px);
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05)
 }
 a.product__link:hover{
     text-decoration: none;
@@ -358,7 +358,7 @@ a.product__link:hover{
     .menu__item-icon {
     width: 12px;
     height: 12px;
-    margin-right: 11px;
+    margin-right: 10px;
     }
     a.product__sidebar-item-name {
     display: block;
