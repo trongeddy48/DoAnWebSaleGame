@@ -1785,6 +1785,7 @@
     <Content Include="Content\images\ffvii-banner.jpg" />
     <Content Include="Content\images\less.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\loz1.png" />
     <Content Include="Content\images\Nintendo\game\atelier-ryza-2-lost-legends-the-secret-fairy-switch-700x700h.jpg" />
     <Content Include="Content\images\Nintendo\game\borderlands-legendary-collection-switch-700x700h.jpg" />
     <Content Include="Content\images\Nintendo\game\catherine-full-body-switch-700x700h.jpg" />
@@ -1917,6 +1918,7 @@
     <Content Include="Content\images\PS\PS4\Chi tiet ps4slim\ps4-slim.jpg" />
     <Content Include="Content\images\PS\PS4\PS4-pro.jpg" />
     <Content Include="Content\images\PS\PS4\ps4-slim.jpg" />
+    <Content Include="Content\images\PS\ps5ready.jpg" />
     <Content Include="Content\images\PS\PS5\Chi tiet ps5de\ps5-41-700x700 %281%29.jpg" />
     <Content Include="Content\images\PS\PS5\Chi tiet ps5de\ps5-digital-edition-40-700x700 %281%29.jpg" />
     <Content Include="Content\images\PS\PS5\Chi tiet ps5de\ps5-digital-edition-41-700x700 %281%29.jpg" />
