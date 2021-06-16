@@ -1866,6 +1866,7 @@
     <Content Include="Content\images\product_7.png" />
     <Content Include="Content\images\product_8.png" />
     <Content Include="Content\images\product_9.png" />
+    <Content Include="Content\images\ps5ads.jpg" />
     <Content Include="Content\images\PS\Game\PS4\assassins-creed-valhalla-limited-edition-ps4-700x700h.jpg" />
     <Content Include="Content\images\PS\Game\PS4\biomutant-ps4-700x700h.jpg" />
     <Content Include="Content\images\PS\Game\PS4\control-ultimate-edition-ps4-700x700h.jpg" />
@@ -1929,7 +1930,9 @@
     <Content Include="Content\images\PS\PS5\ps5-digitaledition.jpg" />
     <Content Include="Content\images\PS\PS5\ps5-stardedition.jpg" />
     <Content Include="Content\images\shipper.png" />
+    <Content Include="Content\images\switchads.jpg" />
     <Content Include="Content\images\tiktok.png" />
+    <Content Include="Content\images\xboxxads.jpg" />
     <Content Include="Content\images\Xbox\game\assassins-creed-valhalla-xbox-700x700h.jpg" />
     <Content Include="Content\images\Xbox\game\crash-bandicoot-4-its-about-time-xbox-700x700h.jpg" />
     <Content Include="Content\images\Xbox\game\ea-sports-ufc-4-xbox-700x700h.jpg" />
